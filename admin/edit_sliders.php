@@ -1,4 +1,4 @@
-<?php require_once('/../dbconnect.php');
+<?php require_once('../dbconnect.php');
 $id = $_GET['user_id'];
 if($id !=""){
     $pic_edit=mysqli_query($conn,"SELECT * FROM sliders WHERE id='$id' LIMIT 1");

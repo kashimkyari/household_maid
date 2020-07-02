@@ -81,7 +81,6 @@ function curPageURL() {
                                 </div>
                                 <ul class="hidden-xs">
                                     <li class="<?php if($page_link != '' && $page_link == 'index'){echo 'active';}?>"><a href="index">Home</a></li>
-                                    <li class="<?php if($page_link != '' && $page_link == 'about_us'){echo 'active';}?>"><a href="about_us">About us </a></li>
                                     <li class="<?php if($page_link != '' && $page_link == 'household_management'){echo 'active';}?>"><a href="household_management">Household Management </a></li>
                                     
                                    
@@ -90,7 +89,7 @@ function curPageURL() {
                                     <li class="<?php if($page_link != '' && $page_link == 'login'){echo 'active';}?>"><a href="login">Log In</a></li>
                                     <li class="custom-menu<?php //if($page_link != '' && $page_link == 'child_care'){echo 'active';}?>"><a>Register <i class="glyphicon glyphicon-chevron-down"></i></a>
                                         <ul class="dropdown">
-                                            <li > <a href="register.php">Register as Agency</a></li>
+                                            <li > <a href="register.php">Register as Employer</a></li>
                                             <li> <a href="maid_registration.php">Register as Maid</a></li>
                                             
                                         </ul>

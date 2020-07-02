@@ -27,17 +27,11 @@
                 <h3 class="page-subheading">Let's get in touch</h3>
                 <p>Kindly feel free to contact us anytime, we really value our users feedback for provision of quality service. Thanks.  </p>
                 <br/>
-                <ul>
-                  <li><a href="about_us">Our Mission. CLICK HERE</a></li>
-                  <li><a href="about_us">Our Vision. CLICK HERE</a></li>
-                  <li><a href="about_us">Core Values. CLICK HERE</a></li>
-                </ul>
                 <br/>
                 <ul class="store_info">
-                  <li><i class="fa fa-home"></i>Day 2 Day Home Experts</li>
-                  <li><i class="fa fa-phone"></i><span>+254738489589</span></li>
-                  <li><i class="fa fa-fax"></i><span>+254700000000</span></li>
-                  <li><i class="fa fa-envelope"></i>Email: <span><a href="#">day2dayhomeexperts@gmail.com</a></span></li>
+                  <li><i class="fa fa-home"></i>HOUSEHOLD MAID</li>
+                  <li><i class="fa fa-phone"></i><span>+230100100</span></li>
+                  <li><i class="fa fa-envelope"></i>Email: <span><a href="#">householdmaid@example.com</a></span></li>
                 </ul>
               </div>
               <div class="col-sm-6" >

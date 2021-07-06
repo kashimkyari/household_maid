@@ -36,11 +36,11 @@
           $mail->Host = 'smtp.gmail.com';
           $mail->SMTPSecure = 'ssl';
           $mail->SMTPAuth = true;
-          $mail->Username = 'day2dayhomeexperts@gmail.com';
-          $mail->Password = 'day2day1234';
+          $mail->Username = '';
+          $mail->Password = '';
           $mail->SMTPSecure = 'tls';
           $mail->Port = 587;
-          $mail->setFrom('day2dayhomeexperts@gmail.com', 'DAY2DAY SYSTEM');
+          $mail->setFrom('', '');
           $mail->addAddress($receiver);
           //$mail->addCC('');
           $mail->addAttachment(getcwd().'/attachments/'.$file);

@@ -45,11 +45,11 @@ else{
           $mail->Host = 'smtp.gmail.com';
           $mail->SMTPSecure = 'ssl';
           $mail->SMTPAuth = true;
-          $mail->Username = 'journalreagan@gmail.com';
-          $mail->Password = 'Jevanjee40';
+          $mail->Username = '';
+          $mail->Password = '';
           $mail->SMTPSecure = 'tls';
           $mail->Port = 587;
-          $mail->setFrom('day2dayhomeexperts@gmail.com', 'DAY2DAY SYSTEM');
+          $mail->setFrom('', '');
           $mail->addAddress($receiver);
           //$mail->addCC('');
           $mail->addAttachment(getcwd().'/attachments/'.$file);
